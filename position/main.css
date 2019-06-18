@@ -1,7 +1,7 @@
 body {
-  background-color: khaki;
   height: 100vh;
   width: 100vw;
+  background-color: rgb(4, 117, 70);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +9,7 @@ body {
 }
 
 .outer {
-  background-color: royalblue;
+  background-color: rgb(31, 124, 109);
   height: 80%;
   width: 80%;
   display: flex;
@@ -19,17 +19,17 @@ body {
 }
 
 .inner {
+  background-color: rgb(120, 172, 148);
   height: 80%;
   width: 80%;
-  background-color: tomato;
 }
 
 .circle {
-  position: absolute;
+  background-color: rgb(8, 55, 99);
   height: 100px;
   width: 100px;
-  background-color: black;
   border-radius: 50%;
+  position: absolute;
 }
 
 .top {
@@ -43,6 +43,4 @@ body {
 }
 .right {
   right: 200px;
-}
-.top.left {
 }

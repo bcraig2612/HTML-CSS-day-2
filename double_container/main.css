@@ -1,25 +1,27 @@
 header {
   height: 100px;
-  background-color: red;
+  width: 100vw;
+  background-color: rgb(26, 26, 26);
 }
 
 header > div {
   height: 100%;
-  background: green;
   width: 100%;
+  background: rgb(81, 139, 122);
   max-width: 1000px;
   margin: 0 auto;
 }
 
 main {
   height: calc(100vh - 100px);
-  background-color: darkgrey;
+  width: 100%;
+  background-color: rgb(119, 50, 50);
 }
 
 main > div {
   height: 100%;
   width: 100%;
-  background: palegoldenrod;
+  background-color: rgb(211, 211, 211);
   max-width: 1000px;
   margin: 0 auto;
 }
